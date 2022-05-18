@@ -5,6 +5,6 @@ if __name__ == "__main__":
     url = "https://astrobox.hotmart.com/"
     header_data = {'Content-Type': 'application/x-www-form-urlencoded'}
     header_data = {}
-    payload = "username=joao.snow@hotmart.com"
+    payload = "username=trisla.kessi@hotmart.com"
     r = requests.request("POST", url, data=payload, headers=header_data, timeout=timeout)
     print (r.request.body)
